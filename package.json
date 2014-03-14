@@ -1,0 +1,11 @@
+{
+	"name": "basic-node-server",
+	"version": "0.0.1",
+	"description": "A basic server that serves static files.",
+	"dependencies": {
+		"mime": "~1.2.7",
+		"socket.io": "~0.9.6"
+	}
+}
+
+	
