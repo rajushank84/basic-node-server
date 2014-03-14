@@ -43,7 +43,7 @@ var server = http.createServer(function (req, res) {
 	if (req.url === '/') {
 		filePath = 'public/index.html';
 	} else {
-		filePath = 'public/' + req.url;
+		filePath = 'public' + req.url;
 	}
 
 	absPath = './' + filePath;
